@@ -1,6 +1,7 @@
 # Card Scroller
 
-[![npm](https://img.shields.io/npm/v/card-scroller?logo=npm&style=for-the-badge)](https://www.npmjs.com/package/card-scroller) [![GitHub stars](https://img.shields.io/github/stars/kevinlinpr/card-scroller-card?color=ff4569&logo=github&style=for-the-badge)](https://github.com/Kevinlinpr/card-scroller)
+[![npm](https://img.shields.io/npm/v/card-scroller?logo=npm&style=for-the-badge)](https://www.npmjs.com/package/card-scroller) 
+[![GitHub stars](https://img.shields.io/github/stars/kevinlinpr/card-scroller?color=ff4569&logo=github&style=for-the-badge)](https://github.com/Kevinlinpr/card-scroller)
 
 ![Twitter Follow](https://img.shields.io/twitter/follow/Tvierrousjan?style=social)
 
