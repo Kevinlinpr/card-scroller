@@ -1,0 +1,90 @@
+.CardScrollerWrapper {
+    height: 440px;
+    display: flex;
+    margin-left: 440px;
+    position: relative;
+    transition: margin-left 300ms;
+}
+.Card {
+    height: 440px;
+    margin-right: 16px;
+}
+.CardScrollerSelector {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+}
+
+.Selector {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    border: 1px solid #dadce0;
+    cursor: pointer;
+    margin-left: 4px;
+    margin-right: 4px;
+    transition: background-color 300ms;
+}
+
+
+.CardScrollerAttach {
+    width: calc(100%);
+    height: 442px;
+    position: relative;
+    top: -515px;
+    display: flex;
+    justify-content: space-between;
+    pointer-events: none;
+}
+
+.CardScrollerPrevious {
+    background: linear-gradient(to right,rgba(255,255,255,1),rgba(255,255,255,0));
+    width: 200px;
+    height: 480px;
+    cursor: pointer;
+    position: relative;
+    pointer-events: visible;
+}
+.Previous {
+    margin-top: 180px;
+}
+.Previous::after {
+    content: '<';
+    font-size: 62px;
+    color: #212121;
+    padding-left: 10px;
+    transition: 0.5s;
+}
+
+.Previous:hover::after {
+    content: '<';
+    font-size: 62px;
+    color: #212121;
+}
+.CardScrollerAfter {
+    background: linear-gradient(to left,rgba(255,255,255,1),rgba(255,255,255,0));
+    width: 200px;
+    height: 480px;
+    cursor: pointer;
+    position: relative;
+    pointer-events: visible;
+}
+.After {
+    margin-top: 180px;
+    margin-left: 136px;
+}
+.After::after {
+    content: '>';
+    font-size: 62px;
+    color: #212121;
+    padding-left: 10px;
+    transition: 0.5s;
+}
+
+.After:hover::after {
+    content: '>';
+    font-size: 62px;
+    color: #212121;
+}
