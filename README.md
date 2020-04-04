@@ -8,7 +8,7 @@ a light-weight React full screen Card Scroller Component.
 
 <div align=center>
 
-![](./doc/card-scroller.gif)
+![](https://github.com/Kevinlinpr/card-scroller/blob/master/doc/card-scroller.gif?raw=true)
 
 </div>
 
