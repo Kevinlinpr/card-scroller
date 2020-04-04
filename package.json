@@ -1,13 +1,14 @@
 {
   "name": "card-scroller",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "",
-  "main": "index.js",
+  "main": "dist/CardScroller.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack-dev-server --config webpack.dev.js"
+    "start": "webpack-dev-server --config webpack.dev.js",
+    "build": "webpack --config webpack.prod.js"
   },
-  "keywords": [],
+  "keywords": ["react","list","card","scroller","component"],
   "author": "",
   "license": "ISC",
   "devDependencies": {
@@ -28,5 +29,8 @@
   },
   "dependencies": {
     "static-card": "^1.0.1"
+  },
+  "peerDependencies": {
+    "react": "16.x"
   }
 }
